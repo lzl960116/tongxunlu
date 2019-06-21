@@ -1,0 +1,58 @@
+@import "general.css";
+header {
+    width: 100%;
+    font-size: 0.38rem;
+    line-height: 1rem;
+    height: 1rem;
+    color: #4ebbfe;
+    text-align: center;
+    box-shadow: 0 0.03rem 0.43rem 0 rgba(41, 167, 255, 0.13);
+    display: flex;
+    justify-content: space-between;
+    padding: 0.2rem;
+    box-sizing: border-box;
+    background: #36a8fe;
+    position: fixed;
+    top: 0;
+}
+header input{
+    width: 100%;
+    text-align: center;
+    border:none;
+    outline: none;
+}
+.nameBox{
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+}
+.nameBox li{
+    display: block;
+    margin-bottom: 0.2rem;
+}
+.nameBox span{
+    background: #cfcfcf;
+    display: block;
+
+}
+
+.nameBox p{
+    margin-top: 20px;
+    border-bottom: 1px solid black;
+
+}
+.bian{
+    width: 0.5rem;
+    height: auto;
+    position: fixed;
+    top: 50%;
+    right: 0.1rem;
+    transform: translateY(-50%);
+}
+.bian li{
+    width: 0.5rem;
+    height: 0.5rem;
+    text-align: center;
+    line-height: 0.5rem;
+    color: #89919a;
+}
